@@ -324,6 +324,9 @@ height:30px;}
 .fa-poop {
     color:#987654;
 }
+/* .color-poop {
+    color:#987654;
+} */
 
 .color-mip {
     color: #1acdda;
@@ -333,17 +336,27 @@ height:30px;}
     color: rgb(137, 68, 214);
    }
 
+   .fa-award {
+       color:gold;
+   }
+   .color-poop {
+    color:#987654;
+}
+
 
    .new-manager {
        padding-left: 10px;
        padding-right: 40px;
    }
    h5 {
-       /* font-size: 24px; */
+    font-family: 'Bebas Neue', cursive;
+       font-size: 24px;
+       letter-spacing: 1px;
        text-align: left;
        font-weight: 700;
    }
    h6 {
+           /* font-family: 'Bebas Neue', cursive; */
     font-size: 14px;
     text-align: left;
     font-weight: 700;
@@ -390,10 +403,48 @@ height:30px;}
 width:100px;
 }
 
+.footer-text {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header-icon {
+    width:150px;
+    }
+
 .main-table {
     /* padding-right: 3px;  */
 }
 
-.trophy-case-main {
+.navbar-brand {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
     
 }
+
+
+a { 
+    color: white; 
+
+}
+
+a:visited{ 
+    color: white; 
+    
+}
+
+a:hover { 
+    color: gold; 
+    
+}
+
+.nav-icons
+{height: 40px;}
+
+
+.color-white {
+    color: white;
+}
+

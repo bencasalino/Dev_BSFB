@@ -267,6 +267,18 @@ font-size: 12px;}
       background-color: gray; color:#202020;
   }
   
+  .color-gold {
+      color: gold;
+  }
+  .color-silver {
+    color: silver;
+}
+.color-bronze {
+    color: #b08d57;
+}
+.color-forth {
+    color: lavender;
+}
 
 
 /* FIXED TABLE HEADER  */
@@ -289,25 +301,75 @@ font-size: 12px;}
     text-align: left;
 }
 
-.shelf-silver { text-align: left;}
+.shelf-silver { text-align: left;
+height:30px;}
 
-.shelf-bronze { text-align: left;}
+.shelf-bronze { text-align: left;height:30px}
 
-.shelf-forth { text-align: left;}
+.shelf-forth { text-align: left;height:30px}
 
-.shelf-playoffs { text-align: left;}
+.shelf-playoffs { text-align: left;height:30px}
 
-.shelf-awards { text-align: left;}
+.shelf-awards { text-align: left;height:30px}
 
-
-.rsc {
+.color-rsc {
  color: orange;
 }
 
-.mip {
-    color: purple;
+.color-mip {
+    color: #1acdda;
    }
 
-   .roy {
-    color: pink;
+   .color-roy {
+    color: rgb(137, 68, 214);
    }
+
+
+   .new-manager {
+       padding-left: 10px;
+       padding-right: 40px;
+   }
+   h6 {
+       text-align: left;
+   }
+
+   .vert-flex {
+       display: flex;
+    flex-direction: column;
+   }
+
+   .horz-flex {
+       display: flex;
+   }
+
+   .trophy-case-font {font-size: 10px;}
+   .trophy-case-icon {font-size: 20px;}
+   .trophy-case-flex {
+       justify-content: space-between;
+
+   }
+
+
+   .main-logo {
+ display: flex;
+ justify-content: flex-end;
+/* max-width:20px; */
+}
+
+.main-img {
+    /* display: flex; */
+    /* justify-content: flex-end; */
+   max-width:100px;
+   }
+
+
+   .footer-flex {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .footer-icon {
+width:100px;
+}

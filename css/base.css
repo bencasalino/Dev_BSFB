@@ -4,8 +4,8 @@
 body {
     /* font: normal 14px/21px Arial, serif; */
     padding: 5%;
-    margin-left:2.5%;
-    margin-right:2.5%;
+    margin-left:.5%;
+    margin-right:.5%;
     background-color: #31393c;
     color:#eee;
 }
@@ -18,7 +18,7 @@ table {
     font-size: 1em;
     border-collapse: collapse;
     margin: 0 auto;
-    border-radius: 50px;
+    /* border-radius: 15px; */
     background: #31393c;
     box-shadow:  20px 20px 60px #2a3033, 
                  -20px -20px 60px #384245;
@@ -191,7 +191,7 @@ font-size: 12px;}
 .td-season-year {}
 .td-rs-w {}
 .td-rs-l {}
-.td-rs-fin {text-align: right;}
+.td-rs-fin {text-align: center;}
 .td-pl-w {}
 .td-pl-l {}
 .td-season-gp {}
@@ -212,10 +212,10 @@ font-size: 12px;}
   .w4 { background-color: #b7e4c7;  color:#202020;}
   .w5 { background-color: #b7e4c7;  color:#202020;}
   .w6 { background-color: #b7e4c7;  color:#202020;}
-  .w7 { background-color: #95d5b2;}
-  .w8 { background-color: #74c69d;}
-  .w9 { background-color: #74c69d;}
-  .w10 { background-color: #52b788;color:white;}
+  .w7 { background-color: #95d5b2; color:#202020;}
+  .w8 { background-color: #74c69d; color:#202020;}
+  .w9 { background-color: #74c69d;color:#202020;}
+  .w10 { background-color: #52b788;color:#202020;}
   .w11 { background-color: #52b788;color:white;}
   .w12 { background-color: #40916c;color:white;}
   .w13 { background-color: #40916c;color:white;}
@@ -232,11 +232,11 @@ font-size: 12px;}
   .l3 { background-color: #fcb8af;  color:#202020;}
   .l4 { background-color: #f67e7d;  color:#202020;}
   .l5 { background-color: #f67e7d;  color:#202020;}
-  .l6 { background-color: #e5383b;color:white;}
-  .l7 { background-color: #e5383b;color:white;}
-  .l8 { background-color: #e5383b;color:white;}
-  .l9 { background-color: #ba181b;color:white;}
-  .l10 { background-color: #ba181b;color:white;}
+  .l6 { background-color: #e5383b;color:#202020;}
+  .l7 { background-color: #e5383b;color:#202020;}
+  .l8 { background-color: #e5383b;color:#202020;}
+  .l9 { background-color: #ba181b;color:#202020;}
+  .l10 { background-color: #ba181b;color:#202020;}
   .l11 { background-color: #ba181b;color:white;}
   .l12 { background-color: #a4161a;color:white;}
   .l13 { background-color: #a4161a;color:white;}
@@ -268,7 +268,7 @@ font-size: 12px;}
   }
   
   .color-gold {
-      color: gold;
+      color: gold; 
   }
   .color-silver {
     color: silver;
@@ -316,6 +316,15 @@ height:30px;}
  color: orange;
 }
 
+.fa-crown {
+    color: orange;
+
+}
+
+.fa-poop {
+    color:#987654;
+}
+
 .color-mip {
     color: #1acdda;
    }
@@ -329,9 +338,16 @@ height:30px;}
        padding-left: 10px;
        padding-right: 40px;
    }
-   h6 {
+   h5 {
+       /* font-size: 24px; */
        text-align: left;
+       font-weight: 700;
    }
+   h6 {
+    font-size: 14px;
+    text-align: left;
+    font-weight: 700;
+}
 
    .vert-flex {
        display: flex;
@@ -372,4 +388,12 @@ height:30px;}
 
    .footer-icon {
 width:100px;
+}
+
+.main-table {
+    /* padding-right: 3px;  */
+}
+
+.trophy-case-main {
+    
 }

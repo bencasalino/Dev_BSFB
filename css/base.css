@@ -3,17 +3,21 @@
 }
 body {
     /* font: normal 14px/21px Arial, serif; */
-    padding: 5%;
+    /* padding: 5%;
     margin-left:.5%;
-    margin-right:.5%;
+    margin-right:.5%; */
     background-color: #31393c;
     color:#eee;
 }
-.example {
-    /* float: left;
-    width: 40%;
-    margin: 5%; */
-}
+#wrapper {
+    padding: 5%;
+    margin-left:.5%;
+    margin-right:.5%;
+    display: flex;
+    justify-content: space-around;
+} 
+
+
 table {
     font-size: 1em;
     border-collapse: collapse;
@@ -44,7 +48,9 @@ th {
 
 th:hover,
 th.sorted {
-    background: #31393c;
+    background: white;
+    color: #31393c; 
+    
 }
 
 th.no-sort,
@@ -187,8 +193,8 @@ table tr:first-child th:first-child {
 .td-join-order{font-size: 12px;}
 .td-team-name {text-align: left;
 font-size: 12px;}
-.td-team-year {}
-.td-season-year {}
+.td-team-year {font-size: 8px;}
+.td-season-year {font-size: 10px;}
 .td-rs-w {}
 .td-rs-l {}
 .td-rs-fin {text-align: center;}
@@ -289,7 +295,7 @@ font-size: 12px;}
 
 .tableFixHead thead th {
     position: sticky;
-    top: 0;
+    top: -1;
 }
 
 .trophy-case {
@@ -330,6 +336,7 @@ height:30px;}
 
 .color-mip {
     color: #1acdda;
+    background-color:#1acdda ;
    }
 
    .color-roy {
@@ -411,7 +418,7 @@ width:100px;
 }
 
 .header-icon {
-    width:150px;
+    width:50px;
     }
 
 .main-table {
@@ -448,3 +455,33 @@ a:hover {
     color: white;
 }
 
+
+
+.table-text 
+ {
+     padding-left: 20px;
+     font-weight: 100;
+     /* font-style: italic; */
+     font-size: 10px;
+ }
+
+ .legend-text  
+{
+font-size: 13px;
+}
+
+.legend-wrapper {
+    /* padding: 2px; */
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right:100px;
+}
+
+.accolades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:red;
+}
